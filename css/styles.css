@@ -333,20 +333,17 @@ body {
 /*team-section-----------------------------------------------*/
 
 .team-section {
-  max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
+   background: #f5f4fa;
 }
+
 .team-header {
   margin-bottom: 50px;
   text-align: center;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-}
-
-.team-section {
-  background: #f5f4fa;
 }
 
 .team-name {
@@ -471,7 +468,7 @@ body {
 
 /*==========FOOTER=============*/
 .footer-section {
- max-width: 1600px;
+
   margin-right: auto;
   margin-left: auto;
   background-color: var(--headfoot-color);
@@ -656,6 +653,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--logo-color);
   background: rgba(33, 150, 243, 0.9);
+  overflow: auto;
 }
 
 .example-list-link {
